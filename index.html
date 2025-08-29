@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambridge International College Assin Fosu - Excellence in Education</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom CSS for animations and enhancements */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .nav-link:hover {
+            color: #93c5fd;
+        }
+        .transition-all {
+            transition: all 0.3s ease;
+        }
+        body{
+            background-image:url("Images/images.jpeg")
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Header/Navigation -->
+    <header class="gradient-bg text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <div class="bg-white rounded-lg p-2 mr-4">
+                        <img src="Images/images.jpeg" alt="Cambridge International Colege (Assin Fosu) logo featuring an open book with graduation cap in school colors" class="w-12 h-12 object-contain" />
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold">Cambridge International College (Assin Fosu)</h1>
+                        <p class="text-green-200">Knowledge • Integrity • Excellence</p>
+                    </div>
+                </div>
+                
+                <nav class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6">
+                    <a href="#" class="nav-link transition-all py-2 px-1 border-b-2 border-transparent hover:border-green-300">Home</a>
+                    <a href="#about" class="nav-link transition-all py-2 px-1 border-b-2 border-transparent hover:border-green-300">About</a>
+                    <a href="#academics" class="nav-link transition-all py-2 px-1 border-b-2 border-transparent hover:border-green-300">Academics</a>
+                    <a href="#admissions" class="nav-link transition-all py-2 px-1 border-b-2 border-transparent hover:border-green-300">Admissions</a>
+                    <a href="#calendar" class="nav-link transition-all py-2 px-1 border-b-2 border-transparent hover:border-green-300">Calendar</a>
+                    <a href="#contact" class="nav-link transition-all py-2 px-1 border-b-2 border-transparent hover:border-green-300">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative">
+        <div class="gradient-bg h-64 md:h-96 flex items-center">
+            <div class="container mx-auto px-4 text-white text-center fade-in">
+                <h2 class="text-3xl md:text-5xl font-bold mb-4">Shaping Future Leaders</h2>
+                <p class="text-xl md:text-2xl mb-6 max-w-3xl mx-auto">Providing exceptional education since 1990</p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#admissions" class="bg-white text-green-800 font-bold py-3 px-8 rounded-lg hover:bg-green-100 transition-all transform hover:scale-105">
+                        Apply Now
+                    </a>
+                    <a href="#tour" class="border-2 border-white text-white font-bold py-3 px-8 rounded-lg hover:bg-white hover:text-green-800 transition-all transform hover:scale-105">
+                        Virtual Tour
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto px-4 -mt-8 relative z-10">
+            <div class="bg-white rounded-lg shadow-xl p-6 grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div class="flex items-center">
+                    <div class="bg-green-100 p-3 rounded-full mr-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="font-bold">Academic Excellence</h3>
+                        <p class="text-sm text-gray-600">Top-ranked programs</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center">
+                    <div class="bg-green-100 p-3 rounded-full mr-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="font-bold">Certified Teachers</h3>
+                        <p class="text-sm text-gray-600">Highly qualified staff</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center">
+                    <div class="bg-purple-100 p-3 rounded-full mr-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="font-bold">Flexible Programs</h3>
+                        <p class="text-sm text-gray-600">After-school activities</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center">
+                    <div class="bg-yellow-100 p-3 rounded-full mr-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="font-bold">Calendar</h3>
+                        <p class="text-sm text-gray-600">Upcoming events</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">About Our School</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+                <p class="text-gray-600 max-w-3xl mx-auto mt-4">
+                    Founded in 1990, Cambridge International College-Assin Fosu- has been committed to providing exceptional education that fosters intellectual growth, creativity, and moral development.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="Images/Elementary School Blobitecture Style Architecture Design Ideas.jpeg
+" alt="Modern school building with spacious classrooms, students interacting in bright hallways" class="rounded-lg shadow-lg w-full" />
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Our Mission</h3>
+                    <p class="text-gray-600 mb-6">
+                        To empower students to become critical thinkers, lifelong learners, and responsible citizens through innovative teaching methods and a supportive community environment.
+                    </p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-2 rounded-full mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Personalized Learning</h4>
+                                <p class="text-gray-600 text-sm">Tailored educational approaches for each student</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-green-100 p-2 rounded-full mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-600" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Character Development</h4>
+                                <p class="text-gray-600 text-sm">Focus on integrity, empathy, and responsibility</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-purple-100 p-2 rounded-full mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Community Engagement</h4>
+                                <p class="text-gray-600 text-sm">Strong partnerships with local organizations</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="mt-6 inline-block bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-700 transition-all">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academics Section -->
+    <section id="academics" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Academic Programs</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+                <p class="text-gray-600 max-w-3xl mx-auto mt-4">
+                    Our comprehensive curriculum prepares students for success in higher education and beyond.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden card-hover transition-all">
+                    <div class="p-4">
+                        <div class="bg-blue-100 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </div>
+                        <h3 class="font-bold text-lg mb-2">STEM Program</h3>
+                        <p class="text-gray-600 text-sm mb-4">Science, Technology, Engineering, and Mathematics curriculum with hands-on learning</p>
+                        <a href="#" class="text-blue-600 text-sm font-semibold hover:underline">View Details →</a>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md overflow-hidden card-hover transition-all">
+                    <div class="p-4">
+                        <div class="bg-green-100 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </div>
+                        <h3 class="font-bold text-lg mb-2">Arts & Humanities</h3>
+                        <p class="text-gray-600 text-sm mb-4">Creative programs in visual arts, music, theater, and literature</p>
+                        <a href="#" class="text-green-600 text-sm font-semibold hover:underline">View Details →</a>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md overflow-hidden card-hover transition-all">
+                    <div class="p-4">
+                        <div class="bg-purple-100 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </div>
+                        <h3 class="font-bold text-lg mb-2">Language Immersion</h3>
+                        <p class="text-gray-600 text-sm mb-4">Bilingual programs with native-speaking instructors</p>
+                        <a href="#" class="text-purple-600 text-sm font-semibold hover:underline">View Details →</a>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md overflow-hidden card-hover transition-all">
+                    <div class="p-4">
+                        <div class="bg-yellow-100 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </div>
+                        <h3 class="font-bold text-lg mb-2">AP Courses</h3>
+                        <p class="text-gray-600 text-sm mb-4">Advanced Placement courses for college credit</p>
+                        <a href="#" class="text-yellow-600 text-sm font-semibold hover:underline">View Details →</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#" class="inline-block bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 transition-all">
+                    View All Programs
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Section -->
+    <section id="admissions" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Admissions</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+                <p class="text-gray-600 max-w-3xl mx-auto mt-4">
+                    Begin your journey with Cambridge International College. Our admissions process is designed to be transparent and supportive.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-6">Application Process</h3>
+                    
+                    <div class="space-y-6">
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-10 w-10 rounded-full bg-blue-600 text-white font-bold">
+                                    1
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium text-gray-800">Submit Inquiry</h4>
+                                <p class="mt-1 text-gray-600">
+                                    Complete our online information request form to receive application materials.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-10 w-10 rounded-full bg-blue-600 text-white font-bold">
+                                    2
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium text-gray-800">School Tour</h4>
+                                <p class="mt-1 text-gray-600">
+                                    Schedule a campus visit to experience our community firsthand.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-10 w-10 rounded-full bg-blue-600 text-white font-bold">
+                                    3
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium text-gray-800">Complete Application</h4>
+                                <p class="mt-1 text-gray-600">
+                                    Submit all required documents including transcripts and recommendations.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-10 w-10 rounded-full bg-blue-600 text-white font-bold">
+                                    4
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium text-gray-800">Admission Decision</h4>
+                                <p class="mt-1 text-gray-600">
+                                    Receive notification within 3 weeks of completing your application.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <a href="#" class="inline-block bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-700 transition-all">
+                            Start Application
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Key Dates</h3>
+                        
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-center pb-3 border-b border-gray-200">
+                                <div>
+                                    <h4 class="font-medium text-gray-800">Application Opens</h4>
+                                    <p class="text-sm text-gray-600">For Fall 2023 intake</p>
+                                </div>
+                                <div class="text-blue-600 font-medium">September 1</div>
+                            </div>
+                            
+                            <div class="flex justify-between items-center pb-3 border-b border-gray-200">
+                                <div>
+                                    <h4 class="font-medium text-gray-800">Priority Deadline</h4>
+                                    <p class="text-sm text-gray-600">For early consideration</p>
+                                </div>
+                                <div class="text-blue-600 font-medium">November 15</div>
+                            </div>
+                            
+                            <div class="flex justify-between items-center pb-3 border-b border-gray-200">
+                                <div>
+                                    <h4 class="font-medium text-gray-800">Financial Aid Deadline</h4>
+                                    <p class="text-sm text-gray-600">For need-based aid</p>
+                                </div>
+                                <div class="text-blue-600 font-medium">December 1</div>
+                            </div>
+                            
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h4 class="font-medium text-gray-800">Final Deadline</h4>
+                                    <p class="text-sm text-gray-600">For regular decision</p>
+                                </div>
+                                <div class="text-blue-600 font-medium">January 15</div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-6">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Tuition & Fees</h3>
+                            <div class="bg-blue-50 p-4 rounded">
+                                <div class="flex justify-between items-center">
+                                    <span class="font-medium text-gray-800">Annual Tuition:</span>
+                                    <span class="font-semibold text-blue-600">$15,000</span>
+                                </div>
+                                <div class="flex justify-between items-center mt-2">
+                                    <span class="font-medium text-gray-800">Financial Aid:</span>
+                                    <span class="font-semibold text-blue-600">Available</span>
+                                </div>
+                            </div>
+                            <p class="text-sm text-gray-600 mt-2">* Includes all academic materials and basic technology fees</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section (For Students/Parents) -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Student & Parent Resources</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+                <p class="text-gray-600 max-w-3xl mx-auto mt-4">
+                    Everything current families need to support their student's success
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden card-hover transition-all">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-blue-100 p-2 rounded-lg mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold">School Calendar</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">View important dates, holidays, and events throughout the academic year.</p>
+                        <a href="#" class="text-blue-600 font-medium hover:underline">View Calendar →</a>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md overflow-hidden card-hover transition-all">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-green-100 p-2 rounded-lg mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold">Forms & Documents</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Download permission slips, medical forms, and other required documents.</p>
+                        <a href="#" class="text-green-600 font-medium hover:underline">View Forms →</a>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md overflow-hidden card-hover transition-all">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-purple-100 p-2 rounded-lg mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold">Parent Portal</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Access grades, attendance records, and school communications.</p>
+                        <a href="#" class="text-purple-600 font-medium hover:underline">Login →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="calendar" class="py-16 bg-gradient-to-r from-blue-50 to-purple-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Upcoming Events</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+                <p class="text-gray-600 max-w-3xl mx-auto mt-4">
+                    Join us for these exciting upcoming events in our school community
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden card-hover transition-all">
+                    <div class="relative">
+                        <img src="Images/IMG-20250715-WA0021.jpg" alt="Rep your school for cultural exchange" class="w-full h-48 object-cover" />
+                        <div class="absolute top-4 left-4 bg-blue-600 text-white text-sm font-bold px-3 py-1 rounded">
+                            Aug 15
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            9:00 AM - 12:00 PM
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Rep your school</h3>
+                        <p class="text-gray-600 mb-4">School cultural exchange.</p>
+                        <a href="#" class="text-blue-600 font-medium hover:underline">Details →</a>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md overflow-hidden card-hover transition-all">
+                    <div class="relative">
+                        <img src="Images/science.jpeg" alt="Science fair with student projects on display in school gymnasium" class="w-full h-48 object-cover" />
+                        <div class="absolute top-4 left-4 bg-green-600 text-white text-sm font-bold px-3 py-1 rounded">
+                            Sep 10
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            6:00 PM - 8:00 PM
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Annual Science Fair</h3>
+                        <p class="text-gray-600 mb-4">Student projects showcase scientific inquiry and innovation.</p>
+                        <a href="#" class="text-green-600 font-medium hover:underline">Details →</a>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md overflow-hidden card-hover transition-all">
+                    <div class="relative">
+                        <img src="Images/IMG-20240626-WA0146.jpg" alt="MATRICULATION" class="w-full h-48 object-cover" />
+                        <div class="absolute top-4 left-4 bg-purple-600 text-white text-sm font-bold px-3 py-1 rounded">
+                            Oct 5
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            4:00 PM - 7:00 PM
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Matriculation Ceremony</h3>
+                        <p class="text-gray-600 mb-4">Inaguration of students.</p>
+                        <a href="#" class="text-purple-600 font-medium hover:underline">Details →</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#" class="inline-block bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 transition-all">
+                    View All Events
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Community Speaks</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-shrink-0">
+                            <img src="Images/IMG-20250305-WA0012.jpg" alt="Parent Miarama Isaka smiling" class="h-12 w-12 rounded-full" />
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold">Mairama Isaka</h4>
+                            <p class="text-gray-600 text-sm">Parent</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "Cambridge International College has provided such a nurturing environment for my child. The teachers truly care about each student's growth, both academically and personally."
+                    </p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-shrink-0">
+                            <img src="Images/IMG-20250714-WA0005.jpg" alt="Graduate Michael Tonu holding diploma" class="h-12 w-12 rounded-full" />
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold">Michael Tonu</h4>
+                            <p class="text-gray-600 text-sm">Alumni</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "The rigorous STEM program prepared me exceptionally well for college. I entered my engineering program with skills and knowledge my peers didn't have."
+                    </p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-shrink-0">
+                            <img src="Images/IMG-20250304-WA0070.jpg" alt="IT specialist" class="h-12 w-12 rounded-full" />
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold">Bright Baidoo</h4>
+                            <p class="text-gray-600 text-sm">Faculty</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "Teaching here is rewarding because we're given the freedom to innovate while being supported by administration. The students' enthusiasm for learning makes every day exciting."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-12 gradient-bg text-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-2xl md:text-3xl font-bold mb-4">Stay Connected</h2>
+                <p class="mb-8">Subscribe to our newsletter for the latest school news, events, and updates</p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center max-w-lg mx-auto">
+                    <input type="email" placeholder="Your email address" class="px-4 py-3 rounded-lg text-gray-800 w-full" />
+                    <button class="bg-yellow-400 text-gray-800 font-bold px-6 py-3 rounded-lg hover:bg-yellow-300 transition-all transform hover:scale-105">
+                        Subscribe
+                    </button>
+                </div>
+                
+                <p class="text-sm text-blue-200 mt-4">We respect your privacy. Unsubscribe at any time.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">About Us</h3>
+                    <div class="flex items-center mb-4">
+                        <img src="Images/images.jpeg" alt="Cambridge International College (Assin Fosu) small logo" class="h-12 w-12 mr-3" />
+                        <div>
+                            <h4 class="font-bold">Cambridge International College</h4>
+                            <p class="text-sm text-gray-400">Excellence in Education</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400">
+                        Providing exceptional education since 1990. Our mission is to develop inquisitive, knowledgeable, and caring young people.
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">Calendar</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">Staff Directory</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">Lunch Menu</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">Transportation</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">Uniform Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Contact</h3>
+                    <address class="not-italic text-gray-400">
+                        <p class="mb-2">123 Education Lane</p>
+                        <p class="mb-2">Learning City, LC 12345</p>
+                        <p class="mb-2">Phone: (555) 123-4567</p>
+                        <p class="mb-2">Fax: (555) 123-4568</p>
+                        <p>Email: info@cambridgeint.edu</p>
+                    </address>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Social Media</h3>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="bg-gray-700 p-3 rounded-full hover:bg-blue-600 transition-all">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="bg-gray-700 p-3 rounded-full hover:bg-pink-600 transition-all">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="bg-gray-700 p-3 rounded-full hover:bg-red-600 transition-all">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="bg-gray-700 p-3 rounded-full hover:bg-blue-400 transition-all">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <p class="text-gray-400 mb-4">Follow us to stay updated on school activities.</p>
+                    
+                    <a href="#" class="inline-block border border-white py-2 px-6 rounded-lg hover:bg-white hover:text-gray-800 transition-all">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-12 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm">© 2023 CAMBRIDGE INTERNATIONAL COLLEGE. All rights reserved.</p>
+                    <div class="flex space-x-6 mt-4 md:mt-0">
+                        <a href="#" class="text-gray-400 hover:text-white transition-all text-sm">Privacy Policy</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-all text-sm">Terms of Service</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-all text-sm">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Button (hidden on larger screens) -->
+    <button id="mobileMenuButton" class="fixed bottom-6 right-6 md:hidden bg-blue-600 text-white p-4 rounded-full shadow-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+    </button>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="fixed inset-0 bg-gray-900 bg-opacity-90 z-50 hidden md:hidden">
+        <div class="flex justify-end p-6">
+            <button id="closeMobileMenu" class="text-white p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+        <div class="flex flex-col items-center justify-center h-full space-y-8">
+            <a href="#" class="text-white text-2xl font-medium">Home</a>
+            <a href="#about" class="text-white text-2xl font-medium">About</a>
+            <a href="#academics" class="text-white text-2xl font-medium">Academics</a>
+            <a href="#admissions" class="text-white text-2xl font-medium">Admissions</a>
+            <a href="#calendar" class="text-white text-2xl font-medium">Calendar</a>
+            <a href="#contact" class="text-white text-2xl font-medium">Contact</a>
+        </div>
+    </div>
+
+    <script>
+        // Mobile menu toggle functionality
+        const mobileMenuButton = document.getElementById('mobileMenuButton');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const closeMobileMenu = document.getElementById('closeMobileMenu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        });
+
+        closeMobileMenu.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+
+                // Close mobile menu if open
+                if (!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                    document.body.style.overflow = 'auto';
+                }
+            });
+        });
+
+        // Animate elements when they come into view
+        const animateOnScroll = () => {
+            const elements = document.querySelectorAll('.fade-in');
+            
+            elements.forEach(element => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (elementPosition < windowHeight - 100) {
+                    element.style.opacity = '1';
+                }
+            });
+        };
+
+        // Initial check
+        animateOnScroll();
+
+        // Add scroll event listener
+        window.addEventListener('scroll', animateOnScroll);
+    </script>
+</body>
+</html>
